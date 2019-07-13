@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="США, президент, личность, бизнесмен, шоумен">
+		<meta name="description" content="45 президент америки">
+        <link href="styles/style.css" rel="stylesheet">
+		<title>Дональд Трамп</title>
+	</head>
+    <body>
+        <header></header>
+        <div class="content">
+        <div class="main-content">
+<div class="face"></div>
+<div href="#">  Дональд Трамп - президент<figure class="figure" class="i-frog"></figure> Соединенных Штатов Америки.
+       В прошлом бизнесмен, шоумен. 
+       Является доллоровым миллиардером. Будет перееизбираться от республиканцев в 2020! </div>
+<div >     
+              {% set services = [
+                { name: 'twitter', silka: 'https://twitter.com/realdonaldtrump' },
+                { name: 'facebook', silka: 'https://www.facebook.com/DonaldTrump'},
+                { name: 'instagram', silka: 'https://www.instagram.com/realdonaldtrump' },
+              ] %}
+              <ul>
+  {% for service in services %}
+      <li>
+        {{service.name}} {{service.silka}}
+      </li>
+  {% endfor %}
+</ul>
+ </div>
+          </div>
+        </content>
+        <footer>
+        
+Голосуйте за меня 2020!
+        </footer>
+    </body>
+</html>
